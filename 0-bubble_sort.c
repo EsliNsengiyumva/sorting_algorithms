@@ -12,7 +12,7 @@
 void bubble_sort(int *array, size_t size)
 {
 	size_t i;
-	int tmp,init;
+	int tmp, init;
 
 	if (!array || size == 0)
 		return;
@@ -31,5 +31,5 @@ void bubble_sort(int *array, size_t size)
 			}
 		}
 
-	} while (init== 0);
+	} while (init == 0);
 }
